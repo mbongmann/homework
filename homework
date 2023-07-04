@@ -1,3 +1,17 @@
 This is my first homework by prof
 I want to do this before friday ends
 So that i can sleep and get to practice well
+resource "aws_default_vpc" "default" {
+  tags = {
+    Name = "Default VPC"
+  }
+}
+
+resource "aws_default_vpc" "default" {
+  tags = {
+    Name = "Default VPC"
+  }
+}
+
+
+
